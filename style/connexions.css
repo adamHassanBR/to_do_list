@@ -1,0 +1,28 @@
+
+   body
+   {
+       padding: 200px;
+       padding-left: 300px;
+       text-align: center;
+   }
+   .formulaire_connexion
+   {
+        text-align: center;
+        padding: 50px;
+        background-color: #F5FEFF;
+        border-radius: 5px;
+        filter: drop-shadow(0 0 0.1rem gray);
+        margin-left: -100px;
+        margin-top: -100px;
+        -webkit-filter: drop-shadow(0 0 0.1rem gray);
+
+   }
+
+   .msgErreure
+   {
+       text-align: center;
+       font-size: 15px;
+       color : red;
+   
+   }
+   

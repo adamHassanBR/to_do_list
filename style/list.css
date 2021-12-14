@@ -1,0 +1,47 @@
+body
+{
+    background-color: #2F2FA2;
+    color: white;
+    text-align: center;
+}
+.grosTitre
+{
+    background-color: #242582;
+    padding : 20px;
+}
+
+
+.mesTaches
+{
+    overflow-y: scroll;
+    color: black;
+    background-color: #F4F4F4;
+    height:500px;
+}
+
+.noteImportante
+{
+    color: black;
+    background-color: white;
+    min-height : 500px;
+    max-height : 500px;
+
+}
+
+
+.compteur{
+    margin-left: 50px;
+    width: 45px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.la_task{
+    margin-left: -250px;
+    width: 500px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #fff;
+}

@@ -1,0 +1,105 @@
+body
+{
+    background-color: #2F2FA2;
+    color: white;
+    text-align: center;
+}
+.grosTitre
+{
+    background-color: #242582;
+    padding : 20px;
+}
+
+.mesToDoList,
+.toDoListTerminer
+{
+    
+    overflow-y: scroll;
+    color: black;
+    background-color: white;
+    position:relative;
+    height:400px;
+    padding: 20px;
+}
+
+.formAddListe
+{
+    text-align: left;
+}
+
+.mesGroupes
+{
+    overflow-y: scroll;
+    margin-right: 250px;
+    margin-left: 250px;
+    color: black;
+    background-color: white;
+    height:100px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.formRegisterNotee
+{
+    text-align: center;
+    padding-left: 150px;
+}
+
+.noteImportante
+{
+
+    color: black;
+    background-color: white;
+    min-width : 500px;
+    min-height : 200px;
+    max-width : 500px;
+    max-height : 200px;
+
+}
+.titreNote
+{
+    margin-top: 20px;
+    padding: 20px;
+}
+.titreTdl
+{
+    padding: 20px;
+}
+.titreGroupe
+{
+    padding: 20px;
+}
+
+.cercleColor
+{
+    text-align:left;
+    height: 22px;
+    width: 20px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.tableTdl
+{
+    padding-left:50px;
+    transition: transform .2s;
+}
+.tableTdl1
+{
+
+    padding-left:10px;
+}
+
+.tableTdl:hover
+{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
